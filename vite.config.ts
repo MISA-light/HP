@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// GitHub Pages: リポジトリ名で公開する場合は base を設定
-// 例: https://username.github.io/misa-media-kit/ → base: '/misa-media-kit/'
-// ルートで公開する場合は base: '/'
+// GitHub Pages: https://misa-light.github.io/HP/
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/HP/',
 })
